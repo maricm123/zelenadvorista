@@ -11,6 +11,21 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@nuxt/ui'
-  ]
+    '@nuxt/ui',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
+    'nuxt-icon',
+    'nuxt-schema-org',
+    'nuxt-simple-sitemap',
+    'nuxt-swagger-ui',
+    'nuxt-vite-cache',
+  ],
+
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  },
+
+  robots: {
+    rules: [{ userAgent: "*", allow: "/" }],
+  },
 })

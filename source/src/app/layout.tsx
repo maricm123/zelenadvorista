@@ -22,7 +22,7 @@ import type { Metadata } from "next";
 import ReduxWrapper from '@/components/utilities/ReduxWrapper';
 
 export const metadata: Metadata = {
-  title: "Agrica - Organic Farm Agriculture React NextJs Template"
+  title: "Zelena Dvorista - Kosenje i odrzavanje, Novi Sad"
 };
 
 export default function RootLayout({

@@ -6,7 +6,7 @@ import TimelineV1 from "@/components/timeline/TimelineV1";
 import WhyChooseV3 from "@/components/whyChoose/WhyChooseV3";
 
 export const metadata = {
-    title: "Agrica - About Us"
+    title: "Zelena Dvorista - O nama"
 };
 
 const AboutUsPage = () => {

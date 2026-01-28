@@ -3,14 +3,14 @@ import ContactV2 from "@/components/contact/ContactV2";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 
 export const metadata = {
-    title: "Agrica - Contact"
+    title: "Zelena Dvorista - Kontakt"
 };
 
 const ContactPage = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Contact Us" breadCrumb="Contact" />
+                <BreadCrumb title="Kontaktirajte nas" breadCrumb="Kontakt" />
                 <ContactV2 />
             </LayoutV1>
         </>

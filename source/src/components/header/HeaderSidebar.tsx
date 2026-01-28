@@ -14,7 +14,7 @@ const HeaderSidebar = ({ isInfoOpen, closeInfoBar, openInfoBar }: SidebarInfoPro
     return (
         <>
             <div className="attr-right">
-                <div className="attr-nav flex">
+                {/* <div className="attr-nav flex">
                     <ul>
                         <li className="side-menu">
                             <Link href="#" scroll={false} onClick={openInfoBar}>
@@ -24,7 +24,7 @@ const HeaderSidebar = ({ isInfoOpen, closeInfoBar, openInfoBar }: SidebarInfoPro
                             </Link>
                         </li>
                     </ul>
-                </div>
+                </div> */}
                 <div className={`side ${isInfoOpen ? "on" : ""}`}>
                     <Link href="#" className="close-side" scroll={false} onClick={closeInfoBar}>
                         <i className="fas fa-times" />

@@ -23,6 +23,11 @@ const HeaderTopV1 = () => {
                                         </a>
                                     </li>
                                     <li>
+                                        <a href="https://www.instagram.com/" target='_blank' rel="noreferrer">
+                                            <i className="fab fa-instagram" />
+                                        </a>
+                                    </li>
+                                    {/* <li>
                                         <a href="https://www.x.com/" target='_blank' rel="noreferrer">
                                             <i className="fab fa-twitter" />
                                         </a>
@@ -36,7 +41,7 @@ const HeaderTopV1 = () => {
                                         <a href="https://www.linkedin.com/" target='_blank' rel="noreferrer">
                                             <i className="fab fa-linkedin-in" />
                                         </a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>

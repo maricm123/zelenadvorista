@@ -10,7 +10,7 @@ import TestimonialV2 from "@/components/testimonials/TestimonialV2";
 import WhyChooseV3 from "@/components/whyChoose/WhyChooseV3";
 
 export const metadata = {
-    title: "Agrica - Home 3"
+    title: "Zelena Dvorista - Pocetna",
 };
 
 const Home3 = () => {

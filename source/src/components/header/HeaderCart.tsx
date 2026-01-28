@@ -44,7 +44,7 @@ const HeaderCart = () => {
 
     return (
         <div className="attr-right">
-            <div className="attr-nav">
+            {/* <div className="attr-nav">
                 <ul>
                     <li className="dropdown">
                         <Link href="#" scroll={false} className="dropdown-toggle" data-toggle="dropdown">
@@ -88,10 +88,9 @@ const HeaderCart = () => {
                     </li>
                     <li className="button"><Link href="/register">Register</Link></li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };
-
 
 export default HeaderCart;

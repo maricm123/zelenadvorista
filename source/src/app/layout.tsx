@@ -6,11 +6,9 @@ import 'react-circular-progressbar/dist/styles.css';
 import 'react-photo-view/dist/react-photo-view.css';
 import 'react-circular-progressbar/dist/styles.css';
 import 'animate.css';
-
 import '@/assets/css/animate.css';
 import '@/assets/css/font-awesome.css';
 import '@/assets/css/flaticon-set.css';
-
 import '@/assets/css/validnavs.css';
 import '@/assets/css/helper.css';
 import '@/assets/css/unit-test.css';

@@ -14,8 +14,8 @@ const HeaderTopV2 = () => {
                                         <i className="fas fa-phone-alt" />
                                     </div>
                                     <div className="content">
-                                        <span>Call Anytime</span>
-                                        <a href="tel:+4733378901">+4733378901</a>
+                                        <span>Uvek dostupni</span>
+                                        <a href="tel:+381628269969">+381 62 826 9969</a>
                                     </div>
                                 </li>
                             </ul>
@@ -32,8 +32,8 @@ const HeaderTopV2 = () => {
                                         <i className="fas fa-comments-alt-dollar" />
                                     </div>
                                     <div className="content">
-                                        <span>Write Email</span>
-                                        <a href="mailto:info@agrul.com">info@agrul.com</a>
+                                        <span>Email</span>
+                                        <a href="mailto:info@agrul.com">rivanovic999@gmail.com</a>
                                     </div>
                                 </li>
                             </ul>

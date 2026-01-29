@@ -8,7 +8,7 @@ interface DataType {
 const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
   return (
     <>
-      <ul
+      {/* <ul
         className={`nav navbar-nav ${navbarPlacement} navbar-right`}
         data-in="fadeInDown"
         data-out="fadeOutUp"
@@ -168,7 +168,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
             </li>
           </ul>
         </li>
-      </ul>
+      </ul> */}
       <ul
         className={`nav navbar-nav ${navbarPlacement} navbar-right`}
         data-in="fadeInDown"

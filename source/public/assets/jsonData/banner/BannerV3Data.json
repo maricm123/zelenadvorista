@@ -1,18 +1,18 @@
 [
     {
         "id": 1,
-        "backgroundImage": "6.jpg",
-        "subheading": "Best Agro Company",
-        "heading": "Sirotinja STOP!",
-        "highlight": "Organic agriculture",
-        "buttonText": "Discover More"
+        "backgroundImage": "toskana1.jpg",
+        "subheading": "Spremni smo da vam pomognemo",
+        "heading": "Oaza mira i prirode za vasu dusu!",
+        "highlight": "Zelena Dvorista",
+        "buttonText": "Pozovite nas"
     },
     {
         "id": 2,
-        "backgroundImage": "5.jpg",
-        "subheading": "Natural Farming Company",
-        "heading": "Ako nemate vilu sa bazenom, ne trosite nase i vase vreme!",
-        "highlight": "Agriculture matter",
-        "buttonText": "Discover More"
+        "backgroundImage": "toskanakosilice.jpg",
+        "subheading": "Vas partner u odrzivom dvoristu",
+        "heading": "Briga o vasem dvoristu pocinje ovde",
+        "highlight": "Zelena Dvorista",
+        "buttonText": "Pozovite nas"
     }
 ]

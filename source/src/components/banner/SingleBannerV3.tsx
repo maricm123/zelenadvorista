@@ -18,7 +18,7 @@ const SingleBannerV3 = ({ banner }: { banner: DataType }) => {
 
     return (
         <>
-            <div className="banner-thumb bg-cover shadow dark" style={{ backgroundImage: `url(/assets/img/banner/toskana1.jpg)` }} />
+            <div className="banner-thumb bg-cover shadow dark" style={{ backgroundImage: `url(/assets/img/banner/${backgroundImage})` }} />
             <div className="container">
                 <div className="row align-center">
                     <div className="col-lg-8">

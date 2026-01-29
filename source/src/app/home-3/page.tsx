@@ -25,7 +25,7 @@ const Home3 = () => {
                 <WhyChooseV3 />
                 <ProductFilter />
                 <TestimonialV2 />
-                <BlogV1 />
+                {/* <BlogV1 /> */}
             </LayoutV3>
         </>
     );

@@ -28,39 +28,36 @@ const FooterV1 = () => {
                             <div className="col-lg-4 col-md-6 item">
                                 <div className="footer-item about">
                                     <Link href="/">
-                                        <Image className="logo w-auto" src="/assets/img/logo-light.png" alt="Logo" width={790} height={240} />
+                                        <Image className="logo w-auto" src="/assets/img/logozelena.svg" alt="Logo" width={790} height={240} />
                                     </Link>
                                     <p>
-                                        Happen active county. Winding morning ambition shyness evident to poor. Because elderly new to the point to main success.
+                                        Pozovite nas danas i saznajte kako možemo pomoći da vaše dvorište zablista!
                                     </p>
-                                    <form onSubmit={handleForm}>
+                                    {/* <form onSubmit={handleForm}>
                                         <input type="email" placeholder="Your Email" className="form-control" name="email" autoComplete="off" required />
                                         <button type="submit"> Go</button>
-                                    </form>
+                                    </form> */}
                                 </div>
                             </div>
 
                             <div className="col-lg-2 col-md-6 item">
                                 <div className="footer-item link">
-                                    <h4 className="widget-title">Explore</h4>
+                                    <h4 className="widget-title">Otkrij još</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/about-us">About Us</Link>
+                                            <Link href="/about-us">O nama</Link>
                                         </li>
                                         <li>
-                                            <Link href="/team">Meet Our Team</Link>
+                                            <Link href="/project">Projekti</Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-single-with-sidebar/1">News & Media</Link>
+                                            <Link href="/services">Usluge</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services">Services</Link>
+                                            <Link href="/farmers">Galerija</Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact">Contact Us</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/team-details/1">Volunteers</Link>
+                                            <Link href="/contact">Kontakt</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -68,7 +65,7 @@ const FooterV1 = () => {
 
                             <div className="col-lg-3 col-md-6 item">
                                 <div className="footer-item recent-post">
-                                    <h4 className="widget-title">Recent Posts</h4>
+                                    <h4 className="widget-title">Najskoriji Projekti</h4>
                                     <ul>
                                         {BlogV1Data.slice(1, 3).map(blog =>
                                             <FooterRecentPost blog={blog} key={blog.id} />
@@ -79,15 +76,15 @@ const FooterV1 = () => {
 
                             <div className="col-lg-3 col-md-6 item">
                                 <div className="footer-item contact">
-                                    <h4 className="widget-title">Contact Info</h4>
+                                    <h4 className="widget-title">Kontakt Informacije</h4>
                                     <ul>
                                         <li>
                                             <div className="icon">
                                                 <i className="fas fa-home" />
                                             </div>
                                             <div className="content">
-                                                <strong>Address:</strong>
-                                                5919 Trussville Crossings Pkwy, Birmingham
+                                                <strong>Adresa:</strong>
+                                                Ćirila i Metodija 80, Novi Sad
                                             </div>
                                         </li>
                                         <li>
@@ -96,7 +93,7 @@ const FooterV1 = () => {
                                             </div>
                                             <div className="content">
                                                 <strong>Email:</strong>
-                                                <a href="mailto:info@validtheme.com">info@validtheme.com</a>
+                                                <a href="mailto:info@validtheme.com">rivanovic999@gmail.com</a>
                                             </div>
                                         </li>
                                         <li>
@@ -104,8 +101,8 @@ const FooterV1 = () => {
                                                 <i className="fas fa-phone" />
                                             </div>
                                             <div className="content">
-                                                <strong>Phone:</strong>
-                                                <a href="tel:2151234567">+123 34598768</a>
+                                                <strong>Telefon:</strong>
+                                                <a href="tel:+381628269969">+381 62 826 9969</a>
                                             </div>
                                         </li>
                                     </ul>

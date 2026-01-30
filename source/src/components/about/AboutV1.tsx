@@ -34,24 +34,24 @@ const AboutV1 = () => {
                     <div className="row align-center">
                         <div className="col-xl-6 col-lg-5">
                             <div className="about-style-one-thumb">
-                                <Image src="/assets/img/about/1.jpg" alt="Image Not Found" width={615} height={852} />
+                                <Image src="/assets/img/about/cikarezezivicu.jpg" alt="Image Not Found" width={615} height={852} />
                                 <div className="animation-shape">
-                                    <Image src="/assets/img/illustration/1.png" alt="Image Not Found" width={250} height={533} />
+                                    <Image src="/assets/img/illustration/cikarezezivicu.jpg" alt="Image Not Found" width={250} height={533} />
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-5 offset-xl-1 col-lg-6 offset-lg-1">
                             <div className="about-style-one-info">
-                                <h2 className="title">Agriculture & Organic <br /> Product Farm</h2>
+                                <h2 className="title">  <br /> </h2>
                                 <p>
-                                    There are many variations of passages of ipsum available but the majority have suffered alteration in some form by injected humor or random word which don’t look even. Comparison new ham melancholy.
+                                    Naš tim sa posvećenjem radi već četiri godine, kontinuirano se usavršavajući u svakom aspektu održavanja vrtova i dvorišta. Kroz kombinaciju stručnog znanja, iskustva i inovativnih pristupa, osiguravamo da se vaš dvorišni prostor nalazi na najvećem mogućem nivou. Svaki član tima je posvećen da pruži izuzetnu uslugu i zadržava najnovije tehnike i trendove u vrtlarstvu kako bi vaš vrt bio pravi raj u kojem ćete uživati.
                                 </p>
                                 <div className="fun-fact-style-flex mt-35">
                                     <div className="counter">
-                                        <div className="timer"><Counter end={25} /></div>
-                                        <div className="operator">M</div>
+                                        <div className="timer"><Counter end={100} /></div>
+                                        <div className="operator">+</div>
                                     </div>
-                                    <span className="medium">Growth Tonns <br /> of Harvest</span>
+                                    <span className="medium">Zadovoljnih <br /> mušterija</span>
                                 </div>
                                 <ul className="top-feature">
                                     {AboutV1ListData.map(list =>

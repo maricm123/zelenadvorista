@@ -13,11 +13,11 @@ const AboutUsPage = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="About Us" breadCrumb="About-us" />
+                <BreadCrumb title="O nama" breadCrumb="O nama" />
                 <AboutV1 />
-                <TimelineV1 sectionClass="default-padding-bottom" />
+                {/* <TimelineV1 sectionClass="default-padding-bottom" /> */}
                 <WhyChooseV3 />
-                <TeamV1 />
+                {/* <TeamV1 /> */}
             </LayoutV1>
         </>
     );

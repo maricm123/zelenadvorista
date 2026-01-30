@@ -11,9 +11,9 @@ const AboutV1List = ({ list }: { list: DataType }) => {
 
     return (
         <li>
-            <div className="icon">
+            {/* <div className="icon">
                 <Image src={`/assets/img/icon/${icon}`} alt="Image Not Found" className="w-auto" width={256} height={256} />
-            </div>
+            </div> */}
             <div className="info">
                 <h4>{title}</h4>
                 <p>{description}</p>

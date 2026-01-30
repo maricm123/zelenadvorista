@@ -24,12 +24,12 @@ const HeaderV2 = () => {
                             </button>
                             <Link className="navbar-brand" href="/">
                                 <Image src="/assets/img/logo-light.png" className="logo desktop" alt="Logo" width={790} height={240} />
-                                <Image src="/assets/img/logo.png" className="logo logo-mobile" alt="Logo" width={790} height={240} />
+                                <Image src="/assets/img/logozelena.svg" className="logo logo-mobile" alt="Logo" width={790} height={240} />
                             </Link>
                         </div>
 
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
-                            <Image src="/assets/img/logo.png" alt="Logo" width={790} height={240} />
+                            <Image src="/assets/img/logozelena.svg" alt="Logo" width={790} height={240} />
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times" />
                             </button>

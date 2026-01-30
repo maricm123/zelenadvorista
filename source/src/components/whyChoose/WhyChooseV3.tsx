@@ -13,9 +13,9 @@ const WhyChooseV3 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 offset-lg-6 pl-60 pl-md-15 pl-xs-15">
-                            <h2 className="title">Healthy life with <br /> fresh products</h2>
+                            <h2 className="title"> <br /> Zelena Dvorišta</h2>
                             <p>
-                                Consume ipsum dolor sit amet consectetur adipisicing elit. Veritatis, illo ullam harum et fuga suscipit quibusdam sapiente. Corrupti ut consequatur magni minus! Iusto eos consectetur similique minus culpa odio temporibus.
+                                Zelena Dvorišta je vaš pouzdan partner u održavanju i razvijanju dvorišta. Naša strast za prirodom i zelenim prostorima osigurava da vaše dvorište bude u najboljem mogućem stanju. Bilo da je reč o redovnom održavanju, uređenju ili specijalizovanim uslugama, naš tim stručnjaka je tu da vam pomogne da ostvarite svoj idealan zeleni kutak.
                             </p>
                             <div className="list-grid">
                                 <div className="achivement-content">
@@ -24,9 +24,9 @@ const WhyChooseV3 = () => {
                                     )}
                                 </div>
                                 <ul className="list-item">
-                                    <li>Bio-dynamic food</li>
-                                    <li>Organic gardening</li>
-                                    <li>Organic food certification</li>
+                                    <li>Profesionalno</li>
+                                    <li>Na vreme</li>
+                                    <li>Kvalitetno</li>
                                 </ul>
                             </div>
                         </div>

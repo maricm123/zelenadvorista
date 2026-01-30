@@ -12,7 +12,7 @@ const ContactV2 = () => {
         event.preventDefault()
         const form = event.target as HTMLFormElement;
         form.reset()
-        toast.success("Thanks For Your Message")
+        toast.success("Hvala što ste nam poslali poruku!")
     }
 
     return (
@@ -26,14 +26,14 @@ const ContactV2 = () => {
                         <div className="col-tact-stye-one col-xl-7 col-lg-7">
                             <div className="contact-form-style-one mb-md-50">
                                 <Image src="/assets/img/illustration/10.png" alt="Image Not Found" width={360} height={600} />
-                                <h5 className="sub-title">Have Questions?</h5>
-                                <h2 className="heading">Send us a massage</h2>
+                                <h5 className="sub-title">Imaš pitanja?</h5>
+                                <h2 className="heading">Pošalji nam poruku</h2>
 
                                 <form className="contact-form contact-form" onSubmit={handleForm}>
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="form-group">
-                                                <input className="form-control" id="name" name="name" placeholder="Name" type="text" required autoComplete='off' />
+                                                <input className="form-control" id="name" name="name" placeholder="Ime" type="text" required autoComplete='off' />
                                                 <span className="alert-error" />
                                             </div>
                                         </div>
@@ -47,7 +47,7 @@ const ContactV2 = () => {
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="form-group">
-                                                <input className="form-control no-arrows" id="phone" name="phone" placeholder="Phone" type="number" required autoComplete='off' />
+                                                <input className="form-control no-arrows" id="phone" name="phone" placeholder="Telefon" type="number" required autoComplete='off' />
                                                 <span className="alert-error" />
                                             </div>
                                         </div>
@@ -55,14 +55,14 @@ const ContactV2 = () => {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="form-group comments">
-                                                <textarea className="form-control" id="comments" name="comments" placeholder="Tell Us About Project *" required autoComplete='off' />
+                                                <textarea className="form-control" id="comments" name="comments" placeholder="Reci nam o projektu" required autoComplete='off' />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <button type="submit" name="submit" id="submit">
-                                                <i className="fa fa-paper-plane" /> Get in Touch
+                                                <i className="fa fa-paper-plane" /> Pošalji poruku
                                             </button>
                                         </div>
                                     </div>
@@ -84,27 +84,27 @@ const ContactV2 = () => {
                                     </span>
                                 </h2>
                                 <p>
-                                    Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing.
+                                    Ako imate bilo kakvih pitanja, slobodno nas kontaktirajte putem donjih podataka ili ispunite obrazac i javit ćemo vam se u najkraćem mogućem roku.
                                 </p>
                                 <ul>
                                     <li>
                                         <div className="content">
-                                            <h5 className="title">Hotline</h5>
-                                            <a href="tel:4733378901">+4733378901</a>
+                                            <h5 className="title">Telefon</h5>
+                                            <a href="tel:+381628269969">+381 62 826 9969</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="info">
-                                            <h5 className="title">Our Location</h5>
+                                            <h5 className="title">Naša lokacija</h5>
                                             <p>
-                                                55 Main Street, The Grand Avenue 2nd Block, <br /> New York City
+                                                Ulica Ćirila i Metodija 80, <br /> Novi Sad
                                             </p>
                                         </div>
                                     </li>
                                     <li>
                                         <div className="info">
-                                            <h5 className="title">Official Email</h5>
-                                            <a href="mailto:info@agrul.com.com">info@agrul.com</a>
+                                            <h5 className="title">Zvanična e-mail adresa</h5>
+                                            <a href="mailto:rivanovic999@gmail.com">rivanovic999@gmail.com</a>
                                         </div>
                                     </li>
                                 </ul>

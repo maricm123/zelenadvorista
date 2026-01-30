@@ -15,7 +15,7 @@ const BreadCrumb = ({ title, breadCrumb }: DataType) => {
                             <h1>{title ? title : "Error Page"}</h1>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
-                                    <li><Link href="/"><i className="fas fa-home" /> Home</Link></li>
+                                    <li><Link href="/"><i className="fas fa-home" /> Početna</Link></li>
                                     <li className="active">{breadCrumb ? breadCrumb : "404"}</li>
                                 </ol>
                             </nav>

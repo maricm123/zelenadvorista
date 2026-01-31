@@ -10,7 +10,7 @@ const FarmersPage = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Farm Members" breadCrumb="Farmers" />
+                <BreadCrumb title="Galerija" breadCrumb="Galerija" />
                 <TeamV3 />
             </LayoutV1>
         </>

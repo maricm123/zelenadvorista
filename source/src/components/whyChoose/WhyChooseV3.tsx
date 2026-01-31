@@ -6,9 +6,9 @@ const WhyChooseV3 = () => {
     return (
         <>
             <div className="choose-us-style-three-area default-padding bg-dark text-light">
-                <div className="illustration-bottom">
+                {/* <div className="illustration-bottom">
                     <Image src="/assets/img/illustration/17.png" alt="Image Not Found" width={700} height={400} />
-                </div>
+                </div> */}
                 <div className="shape" style={{ backgroundImage: 'url(/assets/img/about/3.jpg)' }} />
                 <div className="container">
                     <div className="row">
@@ -18,11 +18,11 @@ const WhyChooseV3 = () => {
                                 Zelena Dvorišta je vaš pouzdan partner u održavanju i razvijanju dvorišta. Naša strast za prirodom i zelenim prostorima osigurava da vaše dvorište bude u najboljem mogućem stanju. Bilo da je reč o redovnom održavanju, uređenju ili specijalizovanim uslugama, naš tim stručnjaka je tu da vam pomogne da ostvarite svoj idealan zeleni kutak.
                             </p>
                             <div className="list-grid">
-                                <div className="achivement-content">
+                                {/* <div className="achivement-content">
                                     {ProgressV2Data.map(progress =>
                                         <SingleProgressV2 progress={progress} key={progress.id} />
                                     )}
-                                </div>
+                                </div> */}
                                 <ul className="list-item">
                                     <li>Profesionalno</li>
                                     <li>Na vreme</li>

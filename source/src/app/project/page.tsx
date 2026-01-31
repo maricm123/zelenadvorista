@@ -10,7 +10,7 @@ const ProjectPage = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title='Recent Projects' breadCrumb='Project' />
+                <BreadCrumb title='Projekti' breadCrumb='Projekti' />
                 <GalleryV2 />
             </LayoutV1>
         </>

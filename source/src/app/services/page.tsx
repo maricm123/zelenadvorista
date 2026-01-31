@@ -7,19 +7,19 @@ import TestimonialV2 from "@/components/testimonials/TestimonialV2";
 import WhyChooseV1 from "@/components/whyChoose/WhyChooseV1";
 
 export const metadata = {
-    title: "Agrica - Services"
+    title: "Zelena Dvorišta - Usluge"
 };
 
 const ServicesPage = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Our Services" breadCrumb="Services" />
+                <BreadCrumb title="Usluge" breadCrumb="Usluge" />
                 <ServiceV1 />
-                <ProductCategory />
+                {/* <ProductCategory /> */}
                 <TestimonialV2 />
-                <WhyChooseV1 sectionClass="default-padding" />
-                <Partner />
+                {/* <WhyChooseV1 sectionClass="default-padding" /> */}
+                {/* <Partner /> */}
             </LayoutV1>
         </>
     );

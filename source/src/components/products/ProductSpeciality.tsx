@@ -3,19 +3,19 @@ import Link from 'next/link';
 const ProductSpeciality = () => {
     return (
         <>
-            <div className="product-speciality-arae bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/banner-1.jpg)' }}>
+            <div className="product-speciality-arae bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/20.png)' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6 col-md-8">
                             <div className="product-speciality-info default-padding-bottom">
                                 <div className="product-badge">
-                                    <h1>100 <strong>Organic</strong></h1>
+                                    <h1>100% <strong>Profesionalno</strong></h1>
                                 </div>
-                                <h2><strong>Fresh & Natural</strong> Produc in Our Store</h2>
+                                <h2><strong>Brza i </strong>besplatna procena </h2>
                                 <p>
-                                    Drawings can followed improved out sociable not. Earnestly so do instantly pretended. See general few civilly amiable pleased account carried. Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past.
+                                    Kontaktirajte nas danas za besplatnu procenu vašeg dvorišta i saznajte kako možemo pomoći da vaš zeleni prostor zablista. Naš tim stručnjaka je spreman da odgovori na sva vaša pitanja i ponudi rešenja prilagođena vašim potrebama.
                                 </p>
-                                <Link className="btn btn-dark btn-md radius animation" href="/shop">Purchase Now</Link>
+                                <Link className="btn btn-dark btn-md radius animation" href="/shop">Pozovite nas!</Link>
                             </div>
                         </div>
                     </div>

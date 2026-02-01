@@ -9,7 +9,7 @@ const WhyChooseV3 = () => {
                 {/* <div className="illustration-bottom">
                     <Image src="/assets/img/illustration/17.png" alt="Image Not Found" width={700} height={400} />
                 </div> */}
-                <div className="shape" style={{ backgroundImage: 'url(/assets/img/about/3.jpg)' }} />
+                <div className="shape" style={{ backgroundImage: 'url(/assets/img/about/about-us.jpg)' }} />
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 offset-lg-6 pl-60 pl-md-15 pl-xs-15">

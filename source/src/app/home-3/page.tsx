@@ -18,12 +18,12 @@ const Home3 = () => {
         <>
             <LayoutV3>
                 <BannerV3 />
-                <FeatureV2 sectionClass="default-padding" />
+                {/* <FeatureV2 sectionClass="default-padding" /> */}
                 <ProductSpeciality />
                 <ProductCategoryV2 />
-                <ProductV1 />
+                {/* <ProductV1 /> */}
                 <WhyChooseV3 />
-                <ProductFilter />
+                {/* <ProductFilter /> */}
                 <TestimonialV2 />
                 {/* <BlogV1 /> */}
             </LayoutV3>

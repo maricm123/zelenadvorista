@@ -7,10 +7,10 @@ const HeaderTopV1 = () => {
                         <div className="col-lg-8">
                             <ul className="item-flex">
                                 <li>
-                                    <i className="fas fa-clock" /> Opening Hours : Sunday- Friday, 08:00 am - 05:00pm
+                                    <i className="fas fa-clock" /> Uvek dostupni za besplatnu procenu i konsultacije
                                 </li>
                                 <li>
-                                    <a href="tel:+4733378901"><i className="fas fa-phone-alt" /> +4733378901</a>
+                                    <a href="tel:+381628269969"><i className="fas fa-phone-alt" /> +381 62 826 9969</a>
                                 </li>
                             </ul>
                         </div>
@@ -18,12 +18,12 @@ const HeaderTopV1 = () => {
                             <div className="social">
                                 <ul>
                                     <li>
-                                        <a href="https://www.facebook.com/" target='_blank' rel="noreferrer">
+                                        <a href="https://www.facebook.com/profile.php?id=61561312765852" target='_blank' rel="noreferrer">
                                             <i className="fab fa-facebook-f" />
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target='_blank' rel="noreferrer">
+                                        <a href="https://www.instagram.com/zelenadvorista/" target='_blank' rel="noreferrer">
                                             <i className="fab fa-instagram" />
                                         </a>
                                     </li>

@@ -12,8 +12,8 @@ const TestimonialV2 = () => {
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">
                             <div className="site-heading text-center">
-                                <h5 className="sub-title">Customers’ Review</h5>
-                                <h2 className="title">What people say?</h2>
+                                <h5 className="sub-title">Recenzije</h5>
+                                <h2 className="title">Šta drugi ljudi kažu o nama?</h2>
                             </div>
                         </div>
                     </div>

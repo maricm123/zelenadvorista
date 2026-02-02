@@ -46,12 +46,12 @@ const SingleProductCategoryV2 = ({ product }: { product: DataType }) => {
             <div className="product">
                 <div className="product-contents">
                     <div className="product-image">
-                        {onSale && <span className="onsale">Sale!</span>}
+                        {/* {onSale && <span className="onsale">Sale!</span>} */}
 
                         <Link href={`/shop-single/${id}`}>
                             <Image src={`/assets/img/products/${thumb}`} alt="Product" width={450} height={450} />
                         </Link>
-                        <div className="shop-action">
+                        {/* <div className="shop-action">
                             <ul>
                                 <li className="cart">
                                     <Link href="#" scroll={false} onClick={handleAddToCart}><span>Add to cart</span></Link>
@@ -63,7 +63,7 @@ const SingleProductCategoryV2 = ({ product }: { product: DataType }) => {
                                     <Link href="#" scroll={false}><span>Quick view</span></Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="product-caption">
                         <div className="product-tags">
@@ -74,13 +74,13 @@ const SingleProductCategoryV2 = ({ product }: { product: DataType }) => {
                         <h4 className="product-title">
                             <Link href={`/shop-single/${id}`}>{title}</Link>
                         </h4>
-                        <div className="price">
+                        {/* <div className="price">
                             {oldPrice && <span className="me-1"><del>{oldPrice}</del></span>}
                             <span>{price}</span>
-                        </div>
-                        <Link href="#" className="cart-btn" scroll={false} onClick={handleAddToCart}>
+                        </div> */}
+                        {/* <Link href="#" className="cart-btn" scroll={false} onClick={handleAddToCart}>
                             <i className="fas fa-shopping-bag" /> Add to cart
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>

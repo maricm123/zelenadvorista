@@ -16,12 +16,12 @@ const ProductCategoryV2 = () => {
                     <div className="row align-center">
                         <div className="col-xl-5 col-lg-12 pr-80 pr-md-15 pr-xs-15">
                             <div className="product-cat-highlight-info bg-cover text-light text-center">
-                                <h2>Organic <strong> Fresh Fruit</strong> </h2>
-                                <h6>Save 20% and free delivery</h6>
+                                <h2> Istraži<strong> naše projekte </strong> </h2>
+                                <h6>Na prvu uslugu 10% popusta</h6>
                                 <div className="button">
-                                    <Link className="btn btn-theme btn-md radius animation" href="/shop">All Products</Link>
+                                    <Link className="btn btn-theme btn-md radius animation" href="/project">Projekti</Link>
                                 </div>
-                                <Image src="/assets/img/illustration/14.png" alt="Image Not Found" width={555} height={500} />
+                                {/* <Image src="/assets/img/illustration/14.png" alt="Image Not Found" width={555} height={500} /> */}
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-12">

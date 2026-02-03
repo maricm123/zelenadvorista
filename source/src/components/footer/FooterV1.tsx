@@ -121,7 +121,7 @@ const FooterV1 = () => {
                     </div>
                 </div>
                 <div className="shape-right-bottom">
-                    <Image src="/assets/img/shape/7.png" alt="Image Not Found" width={1000} height={500} />
+                    <Image src="/assets/img/shape/kosilica.png" alt="Image Not Found" width={1000} height={500} />
                 </div>
             </footer>
         </>

@@ -3,7 +3,7 @@
     { "id": 2, "title": "Redovno održavanje dvorišta i prostora" },
     { "id": 3, "title": "Sadnja, orezivanje i nega biljaka" },
     { "id": 4, "title": "Ugradnja tepih trave" },
-    { "id": 5, "title": "Krčenje zapuštenih terena" },
-    { "id": 6, "title": "Pranje pod pritiskom" },
-    { "id": 7, "title": "Košenje i održavanje travnjaka" }
+    { "id": 6, "title": "Krčenje zapuštenih terena" },
+    { "id": 5, "title": "Košenje i održavanje travnjaka" },
+    { "id": 7, "title": "Pranje pod pritiskom" }
 ]

@@ -23,7 +23,7 @@ const ServiceDetailsPage = async ({ params }: PageProps) => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Service Details" breadCrumb="service-details" />
+                <BreadCrumb title="Detalji usluga" breadCrumb="Usluge" />
                 {data && <ServiceDetailsContent serviceInfo={data} />}
             </LayoutV1>
         </>

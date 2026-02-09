@@ -2,8 +2,8 @@
     {
         "id": 1,
         "thumb": "2.jpg",
-        "thumbFull": "2-full.jpg",
-        "icon": "21.png",
+        "thumbFull": "sezonsko.jpg",
+        "icon": "sezonsko.jpg",
         "title": "Sezonsko sređivanje dvorišta (Proleće / Jesen)",
         "category": "Usluge",
         "description": "Kompletno uređenje dvorišta na početku i kraju sezone, uklanjanje lišća i priprema prostora kako bi se tokom sezone dvorište lako održavalo urednim. Prihrana travnjaka i biljaka doprinosi zdravom i lepom izgledu tokom cele godine."
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "thumb": "3.jpg",
-        "thumbFull": "3-full.jpg",
+        "thumbFull": "redovnodvoriste.jpg",
         "icon": "22.png",
         "title": "Redovno održavanje dvorišta i prostora",
         "category": "Usluge",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "thumb": "5.jpg",
-        "thumbFull": "5-full.jpg",
+        "thumbFull": "tepihtrava.jpg",
         "icon": "24.png",
         "title": "Ugradnja tepih trave",
         "category": "Usluge",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "thumb": "2.jpg",
-        "thumbFull": "2-full.jpg",
+        "thumbFull": "krcenje.jpg",
         "icon": "21.png",
         "title": "Krčenje zapuštenih terena",
         "category": "Usluge",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "thumb": "3.jpg",
-        "thumbFull": "3-full.jpg",
+        "thumbFull": "pranjepritisak.jpg",
         "icon": "22.png",
         "title": "Pranje pod pritiskom",
         "category": "Usluge",
@@ -56,19 +56,10 @@
     {
         "id": 7,
         "thumb": "4.jpg",
-        "thumbFull": "4-full.jpg",
+        "thumbFull": "kosenjeodrzavanje.jpg",
         "icon": "23.png",
         "title": "Košenje i održavanje travnjaka",
         "category": "Usluge",
         "description": "Redovno košenje i osnovna nega travnjaka za gust, zdrav i uredan izgled dvorišta tokom cele sezone."
-    },
-    {
-        "id": 8,
-        "thumb": "5.jpg",
-        "thumbFull": "5-full.jpg",
-        "icon": "24.png",
-        "title": "Sezonsko sređivanje dvorišta (Proleće / Jesen)",
-        "category": "Usluge",
-        "description": "Detaljno sezonsko sređivanje dvorišta sa fokusom na pripremu prostora, uklanjanje otpada i unapređenje izgleda zelenih površina."
     }
 ]

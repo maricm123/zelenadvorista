@@ -18,13 +18,13 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                     <div className="services-details-items">
                         <div className="row">
                             <div className="col-xl-8 col-lg-7 pl-45 pl-md-15 pl-xs-15 services-single-content order-lg-last">
-                                <div className="thumb">
-                                    <Image src={`/assets/img/services/${thumbFull}`} alt="Thumb" width={2000} height={1145} />
-                                </div>
                                 <h2>{title}</h2>
                                 <p>
                                     {description}
                                 </p>
+                                <div className="thumb">
+                                    <Image src={`/assets/img/products/${thumbFull}`} alt="Thumb" width={2000} height={300} />
+                                </div>
                                 <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
                                     <div className="row">
                                         <div className="col-xl-5 col-lg-12 col-md-6">
@@ -49,10 +49,10 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                     </div>
                                 </div>
                                 <blockquote>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.</blockquote>
-                                <h2>What we do?</h2>
+                                {/* <h2>What we do?</h2>
                                 <p>
                                     Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias.
-                                </p>
+                                </p> */}
                                 {/* <div className="common-faq mt-40">
                                     <h2 className="mb-25">Here to help you</h2>
 

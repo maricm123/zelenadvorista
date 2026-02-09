@@ -9,11 +9,11 @@ const ProductSpeciality = () => {
                         <div className="col-xl-6 col-md-8">
                             <div className="product-speciality-info default-padding-bottom">
                                 <div className="product-badge">
-                                    <h1>100% <strong>Profesionalno</strong></h1>
+                                    <h1>100% <strong>Pouzdani</strong></h1>
                                 </div>
-                                <h2><strong>Brza i </strong>besplatna procena </h2>
+                                <h2><strong>Besplatna </strong>procena </h2>
                                 <p>
-                                    Kontaktirajte nas danas za besplatnu procenu vašeg dvorišta i saznajte kako možemo pomoći da vaš zeleni prostor zablista. Naš tim stručnjaka je spreman da odgovori na sva vaša pitanja i ponudi rešenja prilagođena vašim potrebama.
+                                    Kontaktirajte nas danas za besplatnu procenu vašeg dvorišta. Stalo nam je da vaš zeleni prostor bude uvek lep i funkcionalan. Naš tim je spreman da odgovori na sva vaša pitanja i ponudi rešenja prilagođena vašim potrebama.
                                 </p>
                                 <Link className="btn btn-dark btn-md radius animation" href="/shop">Pozovite nas!</Link>
                             </div>

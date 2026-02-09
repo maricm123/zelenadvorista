@@ -48,7 +48,7 @@ const SingleProductCategoryV2 = ({ product }: { product: DataType }) => {
                     <div className="product-image">
                         {/* {onSale && <span className="onsale">Sale!</span>} */}
 
-                        <Link href={`/shop-single/${id}`}>
+                        <Link href={`/service-details/${id}`}>
                             <Image src={`/assets/img/products/${thumb}`} alt="Product" width={450} height={450} />
                         </Link>
                         {/* <div className="shop-action">
@@ -66,13 +66,14 @@ const SingleProductCategoryV2 = ({ product }: { product: DataType }) => {
                         </div> */}
                     </div>
                     <div className="product-caption">
-                        <div className="product-tags">
+                        {/* <div className="product-tags">
                             {tags.map((tag, index) => (
                                 <Link href="#" scroll={false} key={index}>{tag}</Link>
                             ))}
-                        </div>
+                        </div> */}
                         <h4 className="product-title">
-                            <Link href={`/shop-single/${id}`}>{title}</Link>
+                            {/* <h4> {title}</h4> */}
+                            <Link href={`/service-details/${id}`}>{title}</Link>
                         </h4>
                         {/* <div className="price">
                             {oldPrice && <span className="me-1"><del>{oldPrice}</del></span>}

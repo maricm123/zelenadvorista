@@ -16,10 +16,10 @@ const ProductCategoryV2 = () => {
                     <div className="row align-center">
                         <div className="col-xl-5 col-lg-12 pr-80 pr-md-15 pr-xs-15">
                             <div className="product-cat-highlight-info bg-cover text-light text-center">
-                                <h2> Istraži<strong> naše projekte </strong> </h2>
+                                <h2> Istraži<strong> naše usluge </strong> </h2>
                                 <h6>Na prvu uslugu 10% popusta</h6>
                                 <div className="button">
-                                    <Link className="btn btn-theme btn-md radius animation" href="/project">Projekti</Link>
+                                    <Link className="btn btn-theme btn-md radius animation" href="/services">Usluge</Link>
                                 </div>
                                 {/* <Image src="/assets/img/illustration/14.png" alt="Image Not Found" width={555} height={500} /> */}
                             </div>

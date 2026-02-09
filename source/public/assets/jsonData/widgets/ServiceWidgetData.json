@@ -1,22 +1,9 @@
 [
-    {
-        "id": 1,
-        "title": "Agricultural Products"
-    },
-    {
-        "id": 2,
-        "title": "Organic Products"
-    },
-    {
-        "id": 3,
-        "title": "Dairy Production"
-    },
-    {
-        "id": 4,
-        "title": "Sweet Exotic Fruits"
-    },
-    {
-        "id": 5,
-        "title": "Fresh Vegetables"
-    }
+    { "id": 1, "title": "Sezonsko sređivanje dvorišta (Proleće / Jesen)" },
+    { "id": 2, "title": "Redovno održavanje dvorišta i prostora" },
+    { "id": 3, "title": "Sadnja, orezivanje i nega biljaka" },
+    { "id": 4, "title": "Ugradnja tepih trave" },
+    { "id": 5, "title": "Krčenje zapuštenih terena" },
+    { "id": 6, "title": "Pranje pod pritiskom" },
+    { "id": 7, "title": "Košenje i održavanje travnjaka" }
 ]

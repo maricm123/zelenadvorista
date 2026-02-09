@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Vila Toskana",
-        "thumb": "toskana.png",
+        "title": "SEZONSKO SREDJIVANJE DVORIŠTA (PROLEĆE/JESEN)",
+        "thumb": "sezonsko.jpg",
         "tags": [
             "Kosenje",
             "Odrzavanje"
@@ -17,9 +17,9 @@
         ]
     },
     {
-        "id": 2,
-        "title": "Travnjak buseni",
-        "thumb": "klisa1.jpg",
+        "id": 4,
+        "title": "UGRADNJA TEPIH TRAVE",
+        "thumb": "tepihtrava.jpg",
         "tags": [
             "Travnjak",
             "Tepih"
@@ -35,7 +35,7 @@
     },
     {
         "id": 3,
-        "title": "Sredjivanje korova",
+        "title": "SADNJA, OREZIVANJE I NEGA BILJAKA",
         "thumb": "4.png",
         "tags": [
             "Korov",
@@ -51,9 +51,60 @@
         ]
     },
     {
-        "id": 4,
-        "title": "Vila Fruskica",
-        "thumb": "5.png",
+        "id": 2,
+        "title": "REDOVNO ODRZAVANJE DVORISTA I PROSTORA",
+        "thumb": "redovnodvoriste.jpg",
+        "tags": [
+            "Fish",
+            "Health"
+        ],
+        "price": "$25.00",
+        "oldPrice": null,
+        "onSale": false,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Quick view"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "KRCENJE ZAPUSTENIH TERENA",
+        "thumb": "krcenje.jpg",
+        "tags": [
+            "Fish",
+            "Health"
+        ],
+        "price": "$25.00",
+        "oldPrice": null,
+        "onSale": false,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Quick view"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "PRANJE POD PRITISKOM",
+        "thumb": "pranjepritisak.jpg",
+        "tags": [
+            "Fish",
+            "Health"
+        ],
+        "price": "$25.00",
+        "oldPrice": null,
+        "onSale": false,
+        "actions": [
+            "Add to cart",
+            "Add to wishlist",
+            "Quick view"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "KOŠENJE I ODRŽAVANJE TRAVNJAKA",
+        "thumb": "kosenjeodrzavanje.jpg",
         "tags": [
             "Fish",
             "Health"

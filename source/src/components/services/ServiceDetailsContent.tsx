@@ -5,10 +5,11 @@ import BrochureWidget from "../widgets/BrochureWidget";
 interface DataType {
     thumbFull?: string;
     title?: string;
+    description?: string;
 }
 
 const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
-    const { thumbFull, title } = serviceInfo
+    const { thumbFull, title, description } = serviceInfo
 
     return (
         <>
@@ -22,7 +23,7 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                 </div>
                                 <h2>{title}</h2>
                                 <p>
-                                    We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology.
+                                    {description}
                                 </p>
                                 <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
                                     <div className="row">
@@ -52,10 +53,9 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                 <p>
                                     Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias.
                                 </p>
-                                <div className="common-faq mt-40">
+                                {/* <div className="common-faq mt-40">
                                     <h2 className="mb-25">Here to help you</h2>
 
-                                    {/* Accordion */}
                                     <div className="accordion accordion-style-two-items" id="faqAccordion">
                                         <div className="accordion-style-two">
                                             <h2 className="accordion-header" id="headingOne">
@@ -100,11 +100,11 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-xl-4 col-lg-5 mt-md-100 mt-xs-50 services-sidebar">
                                 <ServiceWidget />
-                                <BrochureWidget />
+                                {/* <BrochureWidget /> */}
                             </div>
                         </div>
                     </div>

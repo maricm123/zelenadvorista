@@ -184,9 +184,9 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
           <Link href="/about-us">O nama</Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link href="/project">Projekti</Link>
-        </li>
+        </li> */}
 
         <li>
           <Link href="/services">Usluge</Link>

@@ -12,7 +12,7 @@ const ServiceV2 = () => {
                     <div className="row">
                         <div className="col-lg-10 offset-lg-1">
                             <div className="text-center mb-60 mb-md-40 mb-xs-40">
-                                <h2 className="mask-text large" style={{ backgroundImage: 'url(/assets/img/banner/18.jpg)' }}>Healthy life with fresh products</h2>
+                                <h2 className="mask-text large" style={{ backgroundImage: 'url(/assets/img/banner/kosilica.png)' }}>Healthy life with fresh products</h2>
                             </div>
                         </div>
                     </div>

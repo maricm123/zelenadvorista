@@ -63,7 +63,7 @@ const FooterV1 = () => {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6 item">
+                            {/* <div className="col-lg-3 col-md-6 item">
                                 <div className="footer-item recent-post">
                                     <h4 className="widget-title">Najskoriji Projekti</h4>
                                     <ul>
@@ -72,7 +72,7 @@ const FooterV1 = () => {
                                         )}
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="col-lg-3 col-md-6 item">
                                 <div className="footer-item contact">

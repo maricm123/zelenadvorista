@@ -3,7 +3,7 @@
         "id": 1,
         "image": "kosilica.png",
         "title": "SEZONSKO SREDJIVANJE DVORIŠTA (PROLEĆE/JESEN)",
-        "description": "Kompletno uređenje dvorišta na početku i kraju sezone, uklanjanje lišća i priprema prostora kako bi se tokom sezone dvorište lako održavalo urednim. Prihrana travnjaka i biljaka doprinosi zdravom, zelenom i funkcionalnom izgledu tokom cele godine."
+        "description": "Kompletno uređenje i transformacija dvorišta na početku i kraju sezone, uklanjanje lišća i priprema prostora kako bi se tokom sezone dvorište lako održavalo urednim. Prihrana travnjaka i biljaka doprinosi zdravom, zelenom i funkcionalnom izgledu tokom cele godine."
     },
     {
         "id": 2,
@@ -30,13 +30,13 @@
         "description": "Košenje i održavanje travnjaka kako bi trava bila gusta, ravnomerna i zdrava. Pravilna visina košenja i osnovna nega doprinose lepom izgledu dvorišta tokom cele sezone."
     },
     {
-        "id": 7,
+        "id": 6,
         "image": "kosilica.png",
         "title": "KRCENJE ZAPUSTENIH TERENA",
         "description": "Uklanjanje visoke trave, korova i šiblja radi vraćanja zapuštenih terena u uredno, bezbedno i funkcionalno stanje, spremno za dalja uređenja i korišćenje."
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "kosilica.png",
         "title": "PRANJE POD PRITISKOM",
         "description": "Efikasno osvežavanje prostora pranjem pod visokim pritiskom. Idealno za betonske površine, pločice i behaton, uklanja nečistoće i vraća uredan i čist izgled."

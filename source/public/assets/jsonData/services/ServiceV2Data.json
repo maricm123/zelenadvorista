@@ -6,7 +6,7 @@
         "icon": "sezonsko.jpg",
         "title": "Sezonsko sređivanje dvorišta (Proleće / Jesen)",
         "category": "Usluge",
-        "description": "Kompletno uređenje dvorišta na početku i kraju sezone, uklanjanje lišća i priprema prostora kako bi se tokom sezone dvorište lako održavalo urednim. Prihrana travnjaka i biljaka doprinosi zdravom i lepom izgledu tokom cele godine."
+        "description": "Kompletno uređenje i transformacija dvorišta na početku i kraju sezone, uklanjanje lišća i priprema prostora kako bi se tokom sezone dvorište lako održavalo urednim. Prihrana travnjaka i biljaka doprinosi zdravom i lepom izgledu tokom cele godine."
     },
     {
         "id": 2,
@@ -36,7 +36,7 @@
         "description": "Profesionalna ugradnja tepih trave uz kompletnu pripremu terena, precizno postavljanje, valjanje i zalivanje za brz i dugotrajan estetski rezultat."
     },
     {
-        "id": 5,
+        "id": 6,
         "thumb": "2.jpg",
         "thumbFull": "krcenje.jpg",
         "icon": "21.png",
@@ -45,7 +45,7 @@
         "description": "Uklanjanje visoke trave, korova i šiblja kako bi zapušteni tereni ponovo postali bezbedni, uredni i spremni za dalja uređenja."
     },
     {
-        "id": 6,
+        "id": 7,
         "thumb": "3.jpg",
         "thumbFull": "pranjepritisak.jpg",
         "icon": "22.png",
@@ -54,7 +54,7 @@
         "description": "Dubinsko pranje pod visokim pritiskom idealno za beton, pločice i behaton, koje uklanja tvrdokornu prljavštinu i osvežava izgled prostora."
     },
     {
-        "id": 7,
+        "id": 5,
         "thumb": "4.jpg",
         "thumbFull": "kosenjeodrzavanje.jpg",
         "icon": "23.png",

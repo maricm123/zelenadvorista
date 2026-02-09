@@ -84,7 +84,7 @@ const ContactV2 = () => {
                                     </span>
                                 </h2>
                                 <p>
-                                    Ako imate bilo kakvih pitanja, slobodno nas kontaktirajte putem donjih podataka ili ispunite obrazac i javit ćemo vam se u najkraćem mogućem roku.
+                                    Ako imate bilo kakvih pitanja, slobodno nas kontaktirajte putem donjih podataka ili ispunite obrazac i odazvaćemo se u najkraćem mogućem roku.
                                 </p>
                                 <ul>
                                     <li>

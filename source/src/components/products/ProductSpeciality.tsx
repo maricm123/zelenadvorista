@@ -13,7 +13,8 @@ const ProductSpeciality = () => {
                                 </div>
                                 <h2><strong>Besplatna </strong>procena </h2>
                                 <p>
-                                    Kontaktirajte nas danas za besplatnu procenu vašeg dvorišta. Stalo nam je da vaš zeleni prostor bude uvek lep i funkcionalan. Naš tim je spreman da odgovori na sva vaša pitanja i ponudi rešenja prilagođena vašim potrebama.
+                                    Kontaktirajte nas danas za besplatnu procenu vašeg dvorišta.
+Tu smo da vaš zeleni prostor bude uredan, zdrav i funkcionalan tokom cele sezone. Naš tim stoji vam na raspolaganju za sva pitanja i dogovor oko rešenja prilagođenih vašim potrebama.
                                 </p>
                                 <Link className="btn btn-dark btn-md radius animation" href="/shop">Pozovite nas!</Link>
                             </div>

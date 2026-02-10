@@ -4,34 +4,34 @@
         "thumb": "2.jpg",
         "thumbFull": "sezonsko.jpg",
         "icon": "sezonsko.jpg",
-        "title": "Sezonsko sređivanje dvorišta (Proleće / Jesen)",
+        "title": "SEZONSKO SREĐIVANJE DVORIŠTA (PROLEĆE / JESEN)",
         "category": "Usluge",
-        "description": "Kompletno uređenje i transformacija dvorišta na početku i kraju sezone, uklanjanje lišća i priprema prostora kako bi se tokom sezone dvorište lako održavalo urednim. Prihrana travnjaka i biljaka doprinosi zdravom i lepom izgledu tokom cele godine."
+        "description": "Ova usluga podrazumeva temeljno sređivanje i pripremu dvorišta za novu sezonu. Prostor dovodimo u stanje koje se nakon toga lako i redovno održava. Radovi uključuju uklanjanje zelenog otpada, prihranu travnjaka, kao i orezivanje biljaka u skladu sa godišnjim dobom, kako bi dvorište bilo uredno, zdravo i funkcionalno tokom cele sezone."
     },
     {
         "id": 2,
         "thumb": "3.jpg",
         "thumbFull": "redovnodvoriste.jpg",
         "icon": "22.png",
-        "title": "Redovno održavanje dvorišta i prostora",
+        "title": "REDOVNO ODRŽAVANJE DVORIŠTA",
         "category": "Usluge",
-        "description": "Kontinuirano održavanje dvorišta kroz redovno košenje, čišćenje i osnovnu negu biljaka. Dolazimo 3–4 puta mesečno kako bi prostor ostao uredan, zdrav i funkcionalan."
+        "description": "Kontinuirano održavanje dvorišta kroz redovno košenje, čišćenje i osnovnu negu biljaka. Dolazimo 3–4 puta mesečno kako bi prostor tokom cele sezone ostao uredan, zdrav i funkcionalan, bez da vi razmisljate i brinete o tome . Usluga je namenjena vlasnicima privatnih kuća, vikendicama, dvorištima stambenih zgrada i poslovnih prostora."
     },
     {
         "id": 3,
         "thumb": "4.jpg",
         "thumbFull": "4-full.jpg",
         "icon": "23.png",
-        "title": "Sadnja, orezivanje i nega biljaka",
+        "title": "SADNJA, OREZIVANJE I NEGA BILJAKA",
         "category": "Usluge",
-        "description": "Sadnja i orezivanje biljaka uz redovnu negu radi zdravog rasta i urednog izgleda prostora. Biljke se sade u dvorištu ili u saksijama kao dekoracija."
+        "description": "Nabavljamo, isporučujemo i sadimo biljke prilagođene vašem prostoru i uslovima. Otvoreni smo za dogovor i savete u vezi sa estetskim uređenjem dvorišta. Usluga obuhvata i sezonsko orezivanje biljaka, kao i estetsko oblikovanje živih ograda."
     },
     {
         "id": 4,
         "thumb": "5.jpg",
         "thumbFull": "tepihtrava.jpg",
         "icon": "24.png",
-        "title": "Ugradnja tepih trave",
+        "title": "UGRADNJA TEPIH TRAVE",
         "category": "Usluge",
         "description": "Profesionalna ugradnja tepih trave uz kompletnu pripremu terena, precizno postavljanje, valjanje i zalivanje za brz i dugotrajan estetski rezultat."
     },
@@ -40,16 +40,16 @@
         "thumb": "2.jpg",
         "thumbFull": "krcenje.jpg",
         "icon": "21.png",
-        "title": "Krčenje zapuštenih terena",
+        "title": "KRČENJE ZAPUŠTENIH TERENA",
         "category": "Usluge",
-        "description": "Uklanjanje visoke trave, korova i šiblja kako bi zapušteni tereni ponovo postali bezbedni, uredni i spremni za dalja uređenja."
+        "description": "Uklanjanje visoke trave, korova i šiblja uz organizovan odvoz zelenog otpada na deponiju. Prostor dovodimo u uredno, bezbedno i funkcionalno stanje, spremno za dalje uređenje i korišćenje."
     },
     {
         "id": 7,
         "thumb": "3.jpg",
         "thumbFull": "pranjepritisak.jpg",
         "icon": "22.png",
-        "title": "Pranje pod pritiskom",
+        "title": "PRANJE POD PRITISKOM",
         "category": "Usluge",
         "description": "Dubinsko pranje pod visokim pritiskom idealno za beton, pločice i behaton, koje uklanja tvrdokornu prljavštinu i osvežava izgled prostora."
     },
@@ -58,7 +58,7 @@
         "thumb": "4.jpg",
         "thumbFull": "kosenjeodrzavanje.jpg",
         "icon": "23.png",
-        "title": "Košenje i održavanje travnjaka",
+        "title": "KOŠENJE I ODRŽAVANJE TRAVNJAKA",
         "category": "Usluge",
         "description": "Redovno košenje i osnovna nega travnjaka za gust, zdrav i uredan izgled dvorišta tokom cele sezone."
     }

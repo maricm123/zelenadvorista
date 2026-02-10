@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "SEZONSKO SREDJIVANJE DVORIŠTA (PROLEĆE/JESEN)",
+        "title": "SEZONSKO SREĐIVANJE DVORIŠTA (PROLEĆE / JESEN)",
         "thumb": "sezonsko.jpg",
         "tags": [
             "Kosenje",
@@ -52,7 +52,7 @@
     },
     {
         "id": 2,
-        "title": "REDOVNO ODRZAVANJE DVORISTA I PROSTORA",
+        "title": "REDOVNO ODRZAVANJE DVORIŠTA",
         "thumb": "redovnodvoriste.jpg",
         "tags": [
             "Fish",

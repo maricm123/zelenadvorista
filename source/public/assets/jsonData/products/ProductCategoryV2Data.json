@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "SEZONSKO SREĐIVANJE DVORIŠTA (PROLEĆE / JESEN)",
-        "thumb": "sezonsko.jpg",
+        "thumb": "1.svg",
         "tags": [
             "Kosenje",
             "Odrzavanje"
@@ -19,7 +19,7 @@
     {
         "id": 4,
         "title": "UGRADNJA TEPIH TRAVE",
-        "thumb": "tepihtrava.jpg",
+        "thumb": "2.svg",
         "tags": [
             "Travnjak",
             "Tepih"
@@ -87,7 +87,7 @@
     {
         "id": 6,
         "title": "PRANJE POD PRITISKOM",
-        "thumb": "pranjepritisak.jpg",
+        "thumb": "negabiljaka.svg",
         "tags": [
             "Fish",
             "Health"

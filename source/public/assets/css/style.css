@@ -9985,3 +9985,15 @@ svg.swiper-navigation-icon {
 svg.swiper-navigation-icon path {
     fill: var(--white);
 }
+
+.thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1800 / 1200; /* isti odnos kao tvoj banner */
+  overflow: hidden;
+  border-radius: 12px; /* ako želiš */
+}
+
+.thumb {
+  display: block;
+}

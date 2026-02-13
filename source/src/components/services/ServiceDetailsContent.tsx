@@ -22,10 +22,20 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                 <p>
                                     {description}
                                 </p>
-                                <div className="thumb">
-                                    <Image src={`/assets/img/products/${thumbFull}`} alt="Thumb" width={2000} height={300} />
-                                </div>
-                                <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
+<div className="thumb">
+  {thumbFull && (
+    <Image
+      src={`/assets/img/products/${thumbFull}`}
+      alt={title ?? "Thumb"}
+      fill
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 730px, 730px"
+      quality={70}
+      style={{ objectFit: "cover" }}
+      priority={false}
+    />
+  )}
+</div>
+                                {/* <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
                                     <div className="row">
                                         <div className="col-xl-5 col-lg-12 col-md-6">
                                             <div className="content">
@@ -48,7 +58,7 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                         </div>
                                     </div>
                                 </div>
-                                <blockquote>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.</blockquote>
+                                <blockquote>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe.</blockquote> */}
                                 {/* <h2>What we do?</h2>
                                 <p>
                                     Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias.

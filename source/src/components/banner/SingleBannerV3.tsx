@@ -28,7 +28,7 @@ const SingleBannerV3 = ({ banner }: { banner: DataType }) => {
                                 <strong>{firstTwoWords}</strong> {restWords}
                             </h2>
                             <div className="button">
-                                <Link className="btn btn-theme btn-md radius animation" href="/about-us">{buttonText}</Link>
+                                <Link className="btn btn-theme btn-md radius animation" href="tel:+381628269969">{buttonText}</Link>
                             </div>
                         </div>
                     </div>

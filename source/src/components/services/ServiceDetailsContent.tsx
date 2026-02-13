@@ -23,16 +23,8 @@ const ServiceDetailsContent = ({ serviceInfo }: { serviceInfo: DataType }) => {
                                     {description}
                                 </p>
                                 <div className="thumb">
-  <Image
-    src={`/assets/img/products/${thumbFull}`}
-    alt="Thumb"
-    width={2000}
-    height={300}
-    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 1200px, 2000px"
-    style={{ width: "100%", height: "auto" }}
-    quality={70}
-  />
-</div>
+                                    <Image src={`/assets/img/products/${thumbFull}`} alt="Thumb" width={2000} height={300} />
+                                </div>
                                 <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
                                     <div className="row">
                                         <div className="col-xl-5 col-lg-12 col-md-6">

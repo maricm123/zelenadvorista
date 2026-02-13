@@ -16,7 +16,7 @@ const ProductSpeciality = () => {
                                     Kontaktirajte nas danas za besplatnu procenu vašeg dvorišta.
 Tu smo da vaš zeleni prostor bude uredan, zdrav i funkcionalan tokom cele sezone. Naš tim stoji vam na raspolaganju za sva pitanja i dogovor oko rešenja prilagođenih vašim potrebama.
                                 </p>
-                                <Link className="btn btn-dark btn-md radius animation" href="/shop">Pozovite nas!</Link>
+                                <Link className="btn btn-dark btn-md radius animation" href="tel:+381628269969">Pozovite nas!</Link>
                             </div>
                         </div>
                     </div>

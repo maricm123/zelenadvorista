@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import team2Thumb from '@/assets/img/farmers/2.jpg';
+import team2Thumb from '@/assets/img/farmers/1.jpg';
 import team3Thumb from '@/assets/img/farmers/3.jpg';
 import Link from 'next/link';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';

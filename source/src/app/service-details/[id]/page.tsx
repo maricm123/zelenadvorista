@@ -1,7 +1,7 @@
-import BreadCrumb from "@/components/breadCrumb/BreadCrumb";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 import ServiceDetailsContent from "@/components/services/ServiceDetailsContent";
 import ServiceV2Data from '@/assets/jsonData/services/ServiceV2Data.json';
+import BreadCrumbServices from "@/components/breadCrumb/BreadCrumbServices";
 
 export const metadata = {
     title: "Agrica - Service Details"
@@ -23,7 +23,7 @@ const ServiceDetailsPage = async ({ params }: PageProps) => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Detalji usluga" breadCrumb="Usluge" />
+                <BreadCrumbServices title="Detalji usluga" breadCrumb="Usluge" />
                 {data && <ServiceDetailsContent serviceInfo={data} />}
             </LayoutV1>
         </>

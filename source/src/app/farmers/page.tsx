@@ -3,7 +3,7 @@ import LayoutV1 from "@/components/layouts/LayoutV1";
 import TeamV3 from "@/components/team/TeamV3";
 
 export const metadata = {
-    title: "Agrica - Farmers"
+    title: "Zelena Dvorista - Galerija",
 };
 
 const FarmersPage = () => {

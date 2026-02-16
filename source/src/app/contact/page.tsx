@@ -1,4 +1,4 @@
-import BreadCrumb from "@/components/breadCrumb/BreadCrumb";
+import BreadCrumbContactUs from "@/components/breadCrumb/BreadCrumbContactUs";
 import ContactV2 from "@/components/contact/ContactV2";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 
@@ -10,7 +10,7 @@ const ContactPage = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Kontaktirajte nas" breadCrumb="Kontakt" />
+                <BreadCrumbContactUs title="Kontaktirajte nas" breadCrumb="Kontakt" />
                 <ContactV2 />
             </LayoutV1>
         </>

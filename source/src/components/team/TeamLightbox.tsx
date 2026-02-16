@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 
 type TeamItem = {
   id?: number;
@@ -25,6 +25,25 @@ export default function TeamLightbox({
 }) {
   const item = items[index];
 
+  // ---- mobile swipe ----
+  const startX = useRef<number | null>(null);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    startX.current = e.touches[0]?.clientX ?? null;
+  };
+
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (startX.current == null) return;
+    const endX = e.changedTouches[0]?.clientX ?? startX.current;
+    const dx = endX - startX.current;
+    const threshold = 50;
+
+    if (dx > threshold) onPrev();
+    if (dx < -threshold) onNext();
+
+    startX.current = null;
+  };
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -37,6 +56,7 @@ export default function TeamLightbox({
 
   if (!item) return null;
 
+  const img = item.galerija;
   return (
     <div
       onClick={onClose}
@@ -53,6 +73,8 @@ export default function TeamLightbox({
     >
       <div
         onClick={(e) => e.stopPropagation()}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
         style={{
           maxWidth: 980,
           width: "100%",
@@ -63,20 +85,22 @@ export default function TeamLightbox({
       >
         <div style={{ position: "relative", width: "100%", aspectRatio: "1 / 1" }}>
           <Image
-            src={`/assets/img/farmers/${item.galerija}`}
-            alt={item.name ?? "Team member"}
-            fill
-            sizes="(max-width: 768px) 100vw, 980px"
-            style={{ objectFit: "contain" }}
-            quality={80}
-            priority
-          />
+  src={`/assets/img/farmers/${img}`}
+  alt={item.name ?? "Team member"}
+  fill
+  sizes="100vw"
+  style={{ objectFit: "contain" }}
+  quality={75}
+/>
         </div>
 
         <div style={{ padding: 16, display: "flex", gap: 12, alignItems: "center" }}>
           <div style={{ flex: 1, color: "#fff" }}>
             <div style={{ opacity: 0.8, fontSize: 14 }}>{item.title}</div>
             <div style={{ fontSize: 18, fontWeight: 600 }}>{item.name}</div>
+            <div style={{ opacity: 0.7, fontSize: 13, marginTop: 4 }}>
+              {index + 1}/{items.length}
+            </div>
           </div>
 
           <button onClick={onPrev} style={btnStyle} aria-label="Previous">◀</button>

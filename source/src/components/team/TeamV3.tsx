@@ -1,21 +1,35 @@
 "use client";
 
-import React, { use, useCallback, useMemo, useState } from "react";
+import React, { useCallback, useMemo, useState } from "react";
 import TeamV2Data from "@/assets/jsonData/team/TeamV2Datanew.json";
 import SingleTeamV2 from "./SingleTeamV2";
 import TeamLightbox from "./TeamLightbox";
 
-const TeamV3 = () => {
-  const items = useMemo(() => TeamV2Data, []);
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+type TeamItem = {
+  id?: number;
+  name?: string;
+  title?: string;
+  galerija?: string; // ako koristiš posebno polje za lightbox
+};
 
-  const open = useCallback((i: number) => setOpenIndex(i), []);
-  const close = useCallback(() => setOpenIndex(null), []);
+export default function TeamV3() {
+  const items = useMemo(() => TeamV2Data as TeamItem[], []);
+  const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const openAt = useCallback((i: number) => {
+    setIndex(i);
+    setOpen(true);
+  }, []);
+
+  const close = useCallback(() => setOpen(false), []);
+
   const prev = useCallback(() => {
-    setOpenIndex((i) => (i === null ? null : (i - 1 + items.length) % items.length));
+    setIndex((i) => (i - 1 + items.length) % items.length);
   }, [items.length]);
+
   const next = useCallback(() => {
-    setOpenIndex((i) => (i === null ? null : (i + 1) % items.length));
+    setIndex((i) => (i + 1) % items.length);
   }, [items.length]);
 
   return (
@@ -24,10 +38,10 @@ const TeamV3 = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-10 offset-lg-1">
-              <div className="row blacklight team-style-one">
-                {items.map((team, idx) => (
-                  <div className="col-lg-4 col-md-6 farmer-stye-one" key={team.id}>
-                    <SingleTeamV2 team={team} index={idx} onOpen={open} />
+              <div className="row">
+                {items.map((team, i) => (
+                  <div className="col-lg-4 col-md-6 farmer-stye-one" key={team.id ?? i}>
+                    <SingleTeamV2 team={team} onOpen={() => openAt(i)} />
                   </div>
                 ))}
               </div>
@@ -36,10 +50,10 @@ const TeamV3 = () => {
         </div>
       </div>
 
-      {openIndex !== null && (
+      {open && (
         <TeamLightbox
           items={items}
-          index={openIndex}
+          index={index}
           onClose={close}
           onPrev={prev}
           onNext={next}
@@ -47,6 +61,4 @@ const TeamV3 = () => {
       )}
     </>
   );
-};
-
-export default TeamV3;
+}

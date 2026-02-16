@@ -9997,3 +9997,35 @@ svg.swiper-navigation-icon path {
 .thumb {
   display: block;
 }
+
+.team-thumb {
+  cursor: pointer;
+  position: relative;
+}
+
+.team-thumb {
+  height: 280px; /* ili šta god */
+  overflow: hidden;
+}
+.team-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-thumb-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.35);
+  transition: opacity 0.2s ease;
+  font-weight: 600;
+}
+
+.team-thumb:hover .team-thumb-overlay {
+  opacity: 1;
+}

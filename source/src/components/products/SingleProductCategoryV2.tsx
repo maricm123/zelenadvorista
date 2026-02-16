@@ -49,7 +49,7 @@ const SingleProductCategoryV2 = ({ product }: { product: DataType }) => {
                         {/* {onSale && <span className="onsale">Sale!</span>} */}
 
                         <Link href={`/service-details/${id}`}>
-                            <Image src={`/assets/img/products/${thumb}`} alt="Product" width={450} height={450} />
+                            <Image src={`/assets/img/products/${thumb}`} alt="Product" width={350} height={350} />
                         </Link>
                         {/* <div className="shop-action">
                             <ul>

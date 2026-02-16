@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "SEZONSKO SREĐIVANJE DVORIŠTA (PROLEĆE / JESEN)",
-        "thumb": "1.svg",
+        "thumb": "gardener.png",
         "tags": [
             "Kosenje",
             "Odrzavanje"
@@ -19,7 +19,7 @@
     {
         "id": 4,
         "title": "UGRADNJA TEPIH TRAVE",
-        "thumb": "2.svg",
+        "thumb": "grass.png",
         "tags": [
             "Travnjak",
             "Tepih"
@@ -36,7 +36,7 @@
     {
         "id": 3,
         "title": "SADNJA, OREZIVANJE I NEGA BILJAKA",
-        "thumb": "4.png",
+        "thumb": "plant.png",
         "tags": [
             "Korov",
             "Cupanje"
@@ -53,7 +53,7 @@
     {
         "id": 2,
         "title": "REDOVNO ODRZAVANJE DVORIŠTA",
-        "thumb": "redovnodvoriste.jpg",
+        "thumb": "planting.png",
         "tags": [
             "Fish",
             "Health"
@@ -70,7 +70,7 @@
     {
         "id": 5,
         "title": "KRCENJE ZAPUSTENIH TERENA",
-        "thumb": "krcenje.jpg",
+        "thumb": "gardener1.png",
         "tags": [
             "Fish",
             "Health"
@@ -84,10 +84,11 @@
             "Quick view"
         ]
     },
+    
     {
         "id": 6,
-        "title": "PRANJE POD PRITISKOM",
-        "thumb": "negabiljaka.svg",
+        "title": "KOŠENJE I ODRŽAVANJE TRAVNJAKA",
+        "thumb": "lawn-mower.png",
         "tags": [
             "Fish",
             "Health"
@@ -103,8 +104,8 @@
     },
     {
         "id": 7,
-        "title": "KOŠENJE I ODRŽAVANJE TRAVNJAKA",
-        "thumb": "kosenjeodrzavanje.jpg",
+        "title": "PRANJE POD PRITISKOM",
+        "thumb": "washer.png",
         "tags": [
             "Fish",
             "Health"

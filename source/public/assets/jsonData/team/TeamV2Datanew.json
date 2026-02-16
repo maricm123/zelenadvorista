@@ -1,11 +1,10 @@
 [
-  { "id": 1, "galerija": "1.jpg" },
-  { "id": 2, "galerija": "2.jpg" },
-  { "id": 3, "galerija": "3.jpg" },
-  { "id": 4, "galerija": "4.jpg" },
-  { "id": 5, "galerija": "5.jpg" },
-  { "id": 6, "galerija": "6.jpg" },
-  { "id": 7, "galerija": "7.jpg" },
-  { "id": 8, "galerija": "8.jpg" },
-  { "id": 9, "galerija": "9.jpg" }
+  { "id": 1, "galerija": "preposle.jpg" },
+  { "id": 2, "galerija": "preposle2.jpg" },
+  { "id": 3, "galerija": "preposle3.jpg" },
+  { "id": 4, "galerija": "preposle4.jpg" },
+  { "id": 5, "galerija": "preposle5.jpg" },
+  { "id": 6, "galerija": "preposle6.jpg" },
+  { "id": 7, "galerija": "preposle7.jpg" },
+  { "id": 8, "galerija": "preposle8.jpg" }
 ]

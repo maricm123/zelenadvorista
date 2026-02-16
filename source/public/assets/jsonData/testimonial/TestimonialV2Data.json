@@ -2,23 +2,37 @@
     {
         "id": 1,
         "ratings": 5,
-        "testimonial": "Odlino odradjen posao, sve pohvale.",
-        "name": "Ratko Ivanovic",
-        "designation": "Vila Dunav"
+        "testimonial": "Dogovorili smo redovno održavanje tokom sezone i stvarno se drže dogovora. Vidi se da vole to što rade.",
+        "name": "Pedja",
+        "designation": "Privatna kuća Popovica"
         
     },
     {
         "id": 2,
         "ratings": 5,
-        "testimonial": "Profesionalan pristup, sve preporuke za saradnju.",
-        "name": "Djuradj Kondic",
-        "designation": "Motel Arena"
+        "testimonial": "Drže se dogovora i ne obećavaju one što ne mogu ispuniti. Komšije i ja smo prezadovoljni njihovim uslugama. Svaka čast.",
+        "name": "Igor",
+        "designation": "Stambena zgrada"
     },
     {
         "id": 3,
         "ratings": 5,
-        "testimonial": "Sve je bilo u redu, preporuka za saradnju.",
-        "name": "Mihailo Maric",
-        "designation": "Vila Rumenka"
+        "testimonial": "Lep odnos i korektna saradnja.",
+        "name": "Djordje",
+        "designation": "Poslovni objekat"
+    },
+    {
+        "id": 4,
+        "ratings": 5,
+        "testimonial": "Momci prave ozbiljnu priču, normalni su, vredni, temeljni. Svidja mi se njihov pristup i komunikacija.",
+        "name": "Srdjan",
+        "designation": "Privatna kuća Kamenica"
+    },
+    {
+        "id": 5,
+        "ratings": 5,
+        "testimonial": "Nisu najpovoljniji, ali bar ne moram da razmišljam da li će mi dvorište biti sredjeno.",
+        "name": "Jelena",
+        "designation": "Vikendica Kamenjar"
     }
 ]

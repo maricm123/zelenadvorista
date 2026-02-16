@@ -1,43 +1,43 @@
 [
     {
         "id": 1,
-        "image": "kosilica.png",
+        "image": "gardener.png",
         "title": "SEZONSKO SREĐIVANJE DVORIŠTA (PROLEĆE / JESEN)",
         "description": "Ova usluga podrazumeva temeljno sređivanje i pripremu dvorišta za novu sezonu. Prostor dovodimo u stanje koje se nakon toga lako i redovno održava. Radovi uključuju uklanjanje zelenog otpada, prihranu travnjaka, kao i orezivanje biljaka u skladu sa godišnjim dobom, kako bi dvorište bilo uredno, zdravo i funkcionalno tokom cele sezone."
     },
     {
         "id": 2,
-        "image": "kosilica.png",
+        "image": "planting.png",
         "title": "REDOVNO ODRZAVANJE DVORIŠTA",
         "description": "Kontinuirano održavanje dvorišta kroz redovno košenje, čišćenje i osnovnu negu biljaka. Dolazimo 3–4 puta mesečno kako bi prostor tokom cele sezone ostao uredan, zdrav i funkcionalan, bez da vi razmisljate i brinete o tome . Usluga je namenjena vlasnicima privatnih kuća, vikendicama, dvorištima stambenih zgrada i poslovnih prostora."
     },
     {
         "id": 3,
-        "image": "kosilica.png",
+        "image": "plant.png",
         "title": "SADNJA, OREZIVANJE I NEGA BILJAKA",
         "description": "Nabavljamo, isporučujemo i sadimo biljke prilagođene vašem prostoru i uslovima. Otvoreni smo za dogovor i savete u vezi sa estetskim uređenjem dvorišta. Usluga obuhvata i sezonsko orezivanje biljaka, kao i estetsko oblikovanje živih ograda."
     },
     {
         "id": 4,
-        "image": "kosilica.png",
+        "image": "grass.png",
         "title": "UGRADNJA TEPIH TRAVE",
         "description": "Ugradnja tepih trave omogućava brz i estetski savršen travnjak. Usluga obuhvata kompletnu pripremu terena, precizno postavljanje trave, valjanje i zalivanje kako bi se obezbedilo pravilno ukorenjavanje i dugotrajan rezultat."
     },
     {
         "id": 5,
-        "image": "kosilica.png",
+        "image": "lawn-mower.png",
         "title": "KOŠENJE I ODRŽAVANJE TRAVNJAKA",
         "description": "Košenje i održavanje travnjaka kako bi trava bila gusta, ravnomerna i zdrava. Pravilna visina košenja i osnovna nega doprinose lepom izgledu dvorišta tokom cele sezone."
     },
     {
         "id": 6,
-        "image": "kosilica.png",
+        "image": "gardener1.png",
         "title": "KRCENJE ZAPUSTENIH TERENA",
         "description": "Uklanjanje visoke trave, korova i šiblja uz organizovan odvoz zelenog otpada na deponiju. Prostor dovodimo u uredno, bezbedno i funkcionalno stanje, spremno za dalje uređenje i korišćenje."
     },
     {
         "id": 7,
-        "image": "kosilica.png",
+        "image": "washer.png",
         "title": "PRANJE POD PRITISKOM",
         "description": "Efikasno osvežavanje prostora pranjem pod visokim pritiskom. Idealno za betonske površine, pločice i behaton, uklanja nečistoće i vraća uredan i čist izgled."
     }

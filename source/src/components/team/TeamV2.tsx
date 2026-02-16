@@ -17,7 +17,7 @@ const TeamV2 = () => {
                             <Link className="btn btn-theme secondary mt-10 btn-md radius animation" href="/farmers">Meet all Farmers</Link>
                         </div>
                         <div className="col-lg-7 offset-lg-1">
-                            <Swiper
+                            {/* <Swiper
                                 className="team-style-one-carousel"
                                 loop={true}
                                 freeMode={true}
@@ -45,7 +45,7 @@ const TeamV2 = () => {
                                         <SingleTeamV2 team={team} />
                                     </SwiperSlide>
                                 )}
-                            </Swiper>
+                            </Swiper> */}
                         </div>
                     </div>
                 </div>

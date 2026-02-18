@@ -83,18 +83,27 @@ export default function TeamLightbox({
           overflow: "hidden",
         }}
       >
-        <div style={{ position: "relative", width: "100%", aspectRatio: "1 / 1" }}>
+        <div
+          style={{ position: "relative", width: "100%", aspectRatio: "1 / 1" }}
+        >
           <Image
-  src={`/assets/img/farmers/${img}`}
-  alt={item.name ?? "Team member"}
-  fill
-  sizes="100vw"
-  style={{ objectFit: "contain" }}
-  quality={75}
-/>
+            src={`/assets/img/farmers/${img}`}
+            alt={item.name ?? "Team member"}
+            fill
+            sizes="100vw"
+            style={{ objectFit: "contain" }}
+            quality={75}
+          />
         </div>
 
-        <div style={{ padding: 16, display: "flex", gap: 12, alignItems: "center" }}>
+        <div
+          style={{
+            padding: 16,
+            display: "flex",
+            gap: 12,
+            alignItems: "center",
+          }}
+        >
           <div style={{ flex: 1, color: "#fff" }}>
             <div style={{ opacity: 0.8, fontSize: 14 }}>{item.title}</div>
             <div style={{ fontSize: 18, fontWeight: 600 }}>{item.name}</div>
@@ -103,9 +112,15 @@ export default function TeamLightbox({
             </div>
           </div>
 
-          <button onClick={onPrev} style={btnStyle} aria-label="Previous">◀</button>
-          <button onClick={onNext} style={btnStyle} aria-label="Next">▶</button>
-          <button onClick={onClose} style={btnStyle} aria-label="Close">✕</button>
+          <button onClick={onPrev} style={btnStyle} aria-label="Previous">
+            ◀
+          </button>
+          <button onClick={onNext} style={btnStyle} aria-label="Next">
+            ▶
+          </button>
+          <button onClick={onClose} style={btnStyle} aria-label="Close">
+            ✕
+          </button>
         </div>
       </div>
     </div>

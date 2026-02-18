@@ -1,0 +1,23 @@
+[
+  { "id": 1, "galerija": "1.jpg" },
+  { "id": 2, "galerija": "2.jpg" },
+  { "id": 3, "galerija": "4.jpg" },
+  { "id": 4, "galerija": "6.jpg" },
+  { "id": 5, "galerija": "8.jpg" },
+  { "id": 6, "galerija": "galerija1.jpg" },
+  { "id": 7, "galerija": "galerija2.jpg" },
+  { "id": 8, "galerija": "galerija3.jpg" },
+  { "id": 9, "galerija": "galerija4.jpg" },
+  { "id": 10, "galerija": "galerija5.jpg" },
+  { "id": 11, "galerija": "galerija6.jpg" },
+  { "id": 12, "galerija": "galerija7.jpg" },
+  { "id": 13, "galerija": "galerija8.jpg" },
+  { "id": 14, "galerija": "galerija9.jpg" },
+  { "id": 15, "galerija": "galerija10.jpg" },
+  { "id": 16, "galerija": "galerija11.jpg" },
+  { "id": 17, "galerija": "galerija12.jpg" },
+  { "id": 18, "galerija": "galerija13.jpg" },
+  { "id": 19, "galerija": "galerija14.jpg" },
+  { "id": 20, "galerija": "galerija15.jpg" },
+  { "id": 21, "galerija": "galerija16.jpg" }
+]

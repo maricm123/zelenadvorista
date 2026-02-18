@@ -29,6 +29,8 @@ export default function SingleTeamV2({
           height={800}
           sizes="(max-width: 768px) 100vw, 33vw"
           style={{ width: "100%", height: "auto" }}
+          placeholder="blur"
+          blurDataURL="1.jpg"
         />
         <div className="team-thumb-overlay">View</div>
       </div>

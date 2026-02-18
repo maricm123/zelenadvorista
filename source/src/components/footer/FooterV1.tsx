@@ -48,13 +48,13 @@ const FooterV1 = () => {
                                             <Link href="/about-us">O nama</Link>
                                         </li>
                                         <li>
-                                            <Link href="/project">Projekti</Link>
-                                        </li>
-                                        <li>
                                             <Link href="/services">Usluge</Link>
                                         </li>
                                         <li>
-                                            <Link href="/farmers">Galerija</Link>
+                                            <Link href="/prices">Cenovnik</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="/gallery">Galerija</Link>
                                         </li>
                                         <li>
                                             <Link href="/contact">Kontakt</Link>
@@ -79,13 +79,13 @@ const FooterV1 = () => {
                                     <h4 className="widget-title">Kontakt Informacije</h4>
                                     <ul>
                                         <li>
-                                            <div className="icon">
+                                            {/* <div className="icon">
                                                 <i className="fas fa-home" />
-                                            </div>
-                                            <div className="content">
+                                            </div> */}
+                                            {/* <div className="content">
                                                 <strong>Adresa:</strong>
                                                 Ćirila i Metodija 80, Novi Sad
-                                            </div>
+                                            </div> */}
                                         </li>
                                         <li>
                                             <div className="icon">

@@ -55,7 +55,7 @@ const ContactV2 = () => {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="form-group comments">
-                                                <textarea className="form-control" id="comments" name="comments" placeholder="Reci nam o projektu" required autoComplete='off' />
+                                                <textarea className="form-control" id="comments" name="comments" placeholder="Reci nam kako ti možemo pomoći" required autoComplete='off' />
                                             </div>
                                         </div>
                                     </div>
@@ -93,14 +93,14 @@ const ContactV2 = () => {
                                             <a href="tel:+381628269969">+381 62 826 9969</a>
                                         </div>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <div className="info">
                                             <h5 className="title">Naša lokacija</h5>
                                             <p>
                                                 Ulica Ćirila i Metodija 80, <br /> Novi Sad
                                             </p>
                                         </div>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <div className="info">
                                             <h5 className="title">Zvanična e-mail adresa</h5>

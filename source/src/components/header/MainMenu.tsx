@@ -193,7 +193,11 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }: DataType) => {
         </li>
 
         <li>
-          <Link href="/farmers">Galerija</Link>
+          <Link href="/prices">Cenovnik</Link>
+        </li>
+
+        <li>
+          <Link href="/gallery">Galerija</Link>
         </li>
 
         <li>

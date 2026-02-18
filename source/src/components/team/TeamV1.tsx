@@ -14,7 +14,7 @@ const TeamV1 = () => {
                         <div className="col-lg-4">
                             <h4 className="sub-title">Our Farmers</h4>
                             <h2 className="title">Meet our professional farm experts</h2>
-                            <Link className="btn btn-theme secondary mt-10 btn-md radius animation" href="/farmers">Meet all Farmers</Link>
+                            <Link className="btn btn-theme secondary mt-10 btn-md radius animation" href="/gallery">Meet all Farmers</Link>
                         </div>
                         <div className="col-lg-7 offset-lg-1">
                             {/* <Swiper

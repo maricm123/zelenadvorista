@@ -4331,6 +4331,7 @@ ul.top-feature {
 	margin-left: -45%;
 	margin-top: 70px;
 	position: relative;
+	color: var(--color-paragraph);
 }
 
 ul.top-feature li {
@@ -4340,7 +4341,8 @@ ul.top-feature li {
 }
 
 ul.top-feature li:nth-child(2) {
-	background: var(--color-secondary);
+	color:#000000;
+	/* background: var(--color-secondary); */
 }
 
 ul.top-feature li img {
@@ -4376,11 +4378,11 @@ ul.top-feature li p {
 }
 
 ul.top-feature li:nth-child(2) h4 {
-	color: var(--white);
+	color: var(--black);
 }
 
 ul.top-feature li:nth-child(2) p {
-	color: var(--white);
+	color: var(--black);
 	opacity: 0.9;
 }
 

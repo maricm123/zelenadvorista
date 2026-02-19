@@ -32,7 +32,7 @@ export default function SingleTeamV2({
           placeholder="blur"
           blurDataURL="1.jpg"
         />
-        <div className="team-thumb-overlay">View</div>
+        <div className="team-thumb-overlay">Pogledaj</div>
       </div>
 
       {/* <div className="info">

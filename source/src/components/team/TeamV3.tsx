@@ -61,7 +61,7 @@ export default function TeamV3() {
   ))}
 </div>
 
-<h3 className="text-center">Ostalo</h3>
+<h3 className="text-center">Deo radova</h3>
 <div className="row">
   {itemsOstalo.map((team, i) => (
     <div key={team.id ?? i} className="col-lg-4 col-md-6 farmer-stye-one">

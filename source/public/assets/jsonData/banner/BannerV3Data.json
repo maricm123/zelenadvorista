@@ -4,15 +4,15 @@
         "backgroundImage": "toskanaa.jpg",
         "subheading": "Spremni smo da vam pomognemo",
         "heading": "Besplatna procena!",
-        "highlight": "Zelena Dvorista",
-        "buttonText": "Pozovite nas"
+        "highlight": "Zelena Dvorišta",
+        "buttonText": "Kontaktirajte nas"
     },
     {
         "id": 2,
         "backgroundImage": "toskanakosilice.jpg",
-        "subheading": "Vas partner u odrzavanju dvorista",
-        "heading": "Briga o vasem dvoristu pocinje ovde",
-        "highlight": "Zelena Dvorista",
-        "buttonText": "Pozovite nas"
+        "subheading": "Vaš partner u održavanju dvorišta",
+        "heading": "Briga o vašem dvorištu počinje ovde",
+        "highlight": "Zelena Dvorišta",
+        "buttonText": "Kontaktirajte nas"
     }
 ]

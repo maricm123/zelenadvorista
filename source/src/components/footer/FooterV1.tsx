@@ -109,6 +109,46 @@ const FooterV1 = () => {
                                 </div>
                             </div>
 
+                            <div className="col-lg-3 col-md-6 item">
+    <div className="footer-item contact">
+        <h4 className="widget-title">Društvene mreže</h4>
+        <ul>
+            <li>
+                <div className="icon">
+                    <i className="fab fa-instagram" />
+                </div>
+                <div className="content">
+                    <strong>Instagram:</strong>
+                    <a
+                        href="https://www.instagram.com/zelenadvorista/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        @zelenadvorista
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div className="icon">
+                    <i className="fab fa-facebook" />
+                </div>
+                <div className="content">
+                    <strong>Facebook:</strong>
+                    <a
+                        href="https://www.facebook.com/profile.php?id=61561312765852"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        @zelenadvorista
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>  
+
                         </div>
                     </div>
 

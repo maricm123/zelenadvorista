@@ -71,7 +71,7 @@ I mi zajedno sa njim.
                                         <div className="timer"><Counter end={100} /></div>
                                         <div className="operator">+</div>
                                     </div>
-                                    <span className="medium">Zadovoljnih <br /> mušterija</span>
+                                    <span className="medium">Obavljenih <br /> poslova</span>
                                 </div>
                                 <ul className="top-feature">
                                     {AboutV1ListData.map(list =>

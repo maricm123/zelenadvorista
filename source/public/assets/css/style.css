@@ -10029,3 +10029,19 @@ svg.swiper-navigation-icon path {
 .team-thumb:hover .team-thumb-overlay {
   opacity: 1;
 }
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact-link:hover {
+    color: #E4405F; /* Instagram pink */
+}
+
+.contact-link i {
+    font-size: 22px;
+}
